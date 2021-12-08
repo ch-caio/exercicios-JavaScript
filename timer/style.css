@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container {
+    font-family: sans-serif;
+    opacity: 0.9;
+    border-radius: 20px;
+    width: 700px;
+    height: 400px;
+    background-color: rgba(130, 130, 130, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio {
+    border-radius: 20px;
+    width: 300px;
+    height: 150px;
+}
+
+.relogio button {
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px;
+    size: 10px;
+    width: 60px;
+    height: 25px;
+}
+
+.relogio p {
+    font-size: 30px;
+}
