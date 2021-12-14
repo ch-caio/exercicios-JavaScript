@@ -1,3 +1,5 @@
+// funções factory fabrica um objeto
+
 function criarPessoa(nome, sobrenome, altura, peso) {
     return {
         nome,
