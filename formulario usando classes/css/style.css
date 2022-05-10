@@ -1,0 +1,15 @@
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.formulario {
+    flex-direction: column;
+}
