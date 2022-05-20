@@ -1,32 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modelo</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
     <section class="container">
+        <h1>Formulário de cadastro</h1>
 
-        <div>
-            <h1>Formulario</h1>
-        </div>
-
-        <form action="/" method="post" class='formulario'>
-            <input type="text" class="nome" placeholder="Nome">
-            <input type="text" class="cpf" placeholder="CPF">
-            <input type="text" class="usuario" placeholder="Usuario">
-            <input type="text" class="senha" placeholder="Senha">
-            <input type="text" class="repetir-senha" placeholder="Repetir senha">
+        <form action="/" method="POST" class='formulario'>
+            <input type="text" placeholder="Nome" class="nome validar">
+            <input type="text" placeholder="Sobrenome" class="sobrenome validar">
+            <input type="text" placeholder="CPF" class="cpf validar">
+            <input type="text" placeholder="Usuário" class="usuario validar">
+            <input type="password" placeholder="Senha" class="senha validar">
+            <input type="password" placeholder="Repetir Senha" class="repetir-senha validar">
             <button type="submit">Enviar</button>
         </form>
-
     </section>
+
+    <script src="./js/validaCPF.js"></script>
     <script src="./js/main.js"></script>
 </body>
 
