@@ -4,7 +4,7 @@ const app = express();
 const mongoose = require('mongoose');
 
 // mongoose banco de dados
-mongoose.connect(process.env.CONNECTIONURL, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(process.env.CONNECTIONURL, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
   .then(() => {
     app.emit('pronto');
   })
