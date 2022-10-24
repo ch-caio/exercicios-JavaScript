@@ -1,19 +1,9 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+import React from "react";
+import Main from './components/Main'
+import './App.css'
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>React App</title>
-</head>
-
-<body>
-  <div class="container">
-    <h1>Ola mundo!</h1>
-    <p>texto bolado
-
-    </p>
-  </div>
-</body>
-
-</html>
+export default function App() {
+  return (
+    <Main />
+  );
+}
